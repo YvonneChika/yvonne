@@ -1,3 +1,35 @@
 {
-  "id": "did:web:yvonnechika.github.io:yvonne"
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:yvonnechika.github.io:yvonne",
+  "verificationMethod": [
+    {
+      "id": "did:web:yvonnechika.github.io:yvonne#NHIk_6JwsDUiI4ASH8Q_fr2r_svvV5vbHQuonT1FODI",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:yvonnechika.github.io:yvonne",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "kid": "NHIk_6JwsDUiI4ASH8Q_fr2r_svvV5vbHQuonT1FODI",
+        "x": "lUGetMj-vKb0JZDjxAeu693eYHZFWPLIhTfgcqkvIFo"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:yvonnechika.github.io:yvonne#NHIk_6JwsDUiI4ASH8Q_fr2r_svvV5vbHQuonT1FODI"
+  ],
+  "authentication": [
+    "did:web:yvonnechika.github.io:yvonne#NHIk_6JwsDUiI4ASH8Q_fr2r_svvV5vbHQuonT1FODI"
+  ],
+  "capabilityInvocation": [
+    "did:web:yvonnechika.github.io:yvonne#NHIk_6JwsDUiI4ASH8Q_fr2r_svvV5vbHQuonT1FODI"
+  ],
+  "capabilityDelegation": [
+    "did:web:yvonnechika.github.io:yvonne#NHIk_6JwsDUiI4ASH8Q_fr2r_svvV5vbHQuonT1FODI"
+  ],
+  "keyAgreement": [
+    "did:web:yvonnechika.github.io:yvonne#NHIk_6JwsDUiI4ASH8Q_fr2r_svvV5vbHQuonT1FODI"
+  ]
 }
